@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "pages":[
     "pages/index/index",
@@ -9,4 +10,17 @@
     "navigationBarTitleText": "Journey",
     "navigationBarTextStyle":"white"
   }
+=======
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/details"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#096064",
+    "navigationBarTitleText": "Journey",
+    "navigationBarTextStyle":"white"
+  }
+>>>>>>> ddd080e3d8e6eb1a2b072c7ecc9a1175ede08da9
 }

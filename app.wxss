@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 /**app.wxss**/
 
 pages{
   color: #6b6b6b;
   font-size: 28rpx;
   background-color: #f9f9f9;
+=======
+/**app.wxss**/
+
+pages{
+  color: #6b6b6b;
+  font-size: 28rpx;
+  background-color: #f9f9f9;
+>>>>>>> ddd080e3d8e6eb1a2b072c7ecc9a1175ede08da9
 }
