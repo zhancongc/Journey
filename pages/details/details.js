@@ -1,13 +1,47 @@
 // pages/details/details.js
-const app = getApp()
-
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    giftCards: [],
+    giftCards: [{
+      id: 0,
+      active: false,
+      imageUri: "/images/cornfield.jpg",
+      cardPrice: 50,
+      cardName: "cornfield"
+    }, {
+      id: 1,
+      active: false,
+      imageUri: "/images/waterdrop.jpg",
+      cardPrice: 100,
+      cardName: "waterdrop"
+    }, {
+      id: 2,
+      active: false,
+      imageUri: "/images/island.jpg",
+      cardPrice: 200,
+      cardName: "island"
+    }, {
+      id: 3,
+      active: false,
+      imageUri: "/images/desert.jpg",
+      cardPrice: 500,
+      cardName: "desert"
+    }, {
+      id: 4,
+      active: false,
+      imageUri: "/images/san_francisco.jpg",
+      cardPrice: 1000,
+      cardName: "San Francisco"
+    }, {
+      id: 5,
+      active: false,
+      imageUri: "/images/castle.jpg",
+      cardPrice: 5000,
+      cardName: "Gemany Castle"
+    }],
     image: "/images/desert.jpg"
   },
   chooseCard : function (e) {
@@ -42,7 +76,6 @@ Page({
   onLoad: function (options) {
     var id = options.cardid;
     console.log("card id is "+id);
-    this.data.giftCards = app.globalData.cards;
     this.data.giftCards[id].active = true;
     this.setData({
       giftCards: this.data.giftCards,
